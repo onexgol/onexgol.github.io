@@ -1,0 +1,130 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #009129;
+    font-size: 49px;
+    margin-bottom: 20px;
+    font-family: 'MS Serif'
+}
+
+.inp {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.timeco {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#time {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inp input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left; 
+}
+
+th {
+    background-color: #009129;;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+.no {
+    color: red;
+    font-weight: bold;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.arrow-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.arrow-button:hover {
+    background-color: #45a049;
+}
+
+.video {
+    cursor: pointer;
+}
+
+nav {
+    background-color: #f0f0f0; /* Светлый фон для навигации */
+    padding: 10px 0; /* Отступы сверху и снизу */
+    border-top: 2px solid #333; /* Четкая граница сверху */
+    border-bottom: 2px solid #333; /* Четкая граница снизу */
+}
+
+nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    text-align: center; /* Центрируем текст */
+}
+
+nav ul li {
+    display: inline; /* Выстраиваем элементы в строку */
+    margin: 0 15px; /* Отступы между элементами */
+}
+
+nav ul li a {
+    color: #333; /* Темный цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: bold; /* Жирный шрифт */
+    padding: 8px 16px; /* Отступы внутри ссылок */
+    border: 1px solid #4CAF50; /* Зеленая граница */
+    border-radius: 3px; /* Закругленные углы */
+    background-color: #ffffff; /* Белый фон для ссылок */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50; /* Цвет фона при наведении */
+    color: white; /* Белый цвет текста при наведении */
+}
